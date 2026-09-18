@@ -419,17 +419,17 @@ export default function HomePage() {
                 <div className="fac-image-box">
                   <Image
                     src={fac.image || '/images/hosted/Mahaan01.jpg-1-scaled.jpeg'}
-                    alt={fac.title}
+                    alt={fac.titleEnglish}
                     width={400}
                     height={260}
                     className="fac-photo"
                   />
-                  <span className="fac-badge">{fac.highlight}</span>
+                  <span className="fac-badge">{fac.contactLabel || `Block ${fac.number}`}</span>
                 </div>
                 <div className="fac-content">
-                  <h3 className="fac-title">{fac.title}</h3>
+                  <h3 className="fac-title">{fac.titleEnglish}</h3>
                   <div className="fac-title-hi">{fac.titleHindi}</div>
-                  <p className="fac-desc">{fac.description}</p>
+                  <p className="fac-desc">{fac.descriptionHindi}</p>
                   <ul className="fac-bullets">
                     {fac.features.slice(0, 3).map((f, fi) => (
                       <li key={fi}>
