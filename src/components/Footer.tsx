@@ -104,15 +104,15 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/ayushman" className="footer-link">
+                <Link href="/services#ayushman" className="footer-link">
                   <ChevronRight size={14} />
-                  <span>Ayushman Bharat &amp; TPA Insurance</span>
+                  <span>Ayushman Bharat &amp; TPA (In Services)</span>
                 </Link>
               </li>
               <li>
-                <Link href="/blood-center" className="footer-link">
+                <Link href="/services#blood-center" className="footer-link">
                   <ChevronRight size={14} />
-                  <span>24×7 Blood Center &amp; Components</span>
+                  <span>24×7 Blood Center (In Services)</span>
                 </Link>
               </li>
               <li>

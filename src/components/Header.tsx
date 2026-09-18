@@ -47,8 +47,6 @@ export default function Header({ onOpenAppointment }: HeaderProps) {
     { href: '/doctors', label: 'Doctors' },
     { href: '/treatments', label: 'Specialties' },
     { href: '/services', label: 'Services' },
-    { href: '/ayushman', label: 'PM Ayushman' },
-    { href: '/blood-center', label: 'Blood Center' },
   ];
 
   const isRouteActive = (href: string) => {
